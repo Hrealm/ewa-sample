@@ -1,0 +1,18 @@
+{
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "postcss": false,
+    "minified": false,
+    "newFeature": false
+  },
+  "appid": "testappId",
+  "projectname": "bytedance mini app sample",
+  "condition": {
+    "miniprogram": {
+      "current": -1,
+      "list": [
+      ]
+    }
+  }
+}

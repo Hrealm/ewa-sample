@@ -1,0 +1,20 @@
+{
+  "name": "vx_app",
+  "version": "1.0.0",
+  "description": "vx_app",
+  "scripts": {
+    "clean": "ewa clean",
+    "start": "ewa clean && cross-env NODE_ENV=production ewa start",
+    "build": "ewa clean && cross-env NODE_ENV=development ewa build",
+    "build:prod": "ewa clean && cross-env NODE_ENV=production ewa build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "ewa": "^1.0.6"
+  },
+  "devDependencies": {
+    "ewa-cli": "^1.0.6"
+  }
+}
