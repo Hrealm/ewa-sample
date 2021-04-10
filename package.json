@@ -1,11 +1,11 @@
 {
-  "name": "vx_app",
+  "name": "ewa_app",
   "version": "1.0.0",
-  "description": "vx_app",
+  "description": "ewa_app",
   "scripts": {
     "clean": "ewa clean",
-    "start": "ewa clean && cross-env NODE_ENV=production ewa start",
-    "build": "ewa clean && cross-env NODE_ENV=development ewa build",
+    "start": "ewa clean && cross-env NODE_ENV=development ewa start",
+    "build": "ewa clean && ewa build",
     "build:prod": "ewa clean && cross-env NODE_ENV=production ewa build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
