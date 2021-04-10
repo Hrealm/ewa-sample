@@ -27,7 +27,7 @@ module.exports = {
       1
     ],
     'no-console': [
-      1
+      0
     ],
     'indent': [
       2,
@@ -36,7 +36,7 @@ module.exports = {
     ],
     'linebreak-style': [
       2,
-      'windows'
+      'unix'
     ],
     'quotes': [
       1,
