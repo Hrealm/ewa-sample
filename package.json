@@ -6,14 +6,15 @@
     "clean": "ewa clean",
     "start": "ewa clean && cross-env NODE_ENV=development ewa start",
     "build": "ewa clean && cross-env NODE_ENV=production ewa build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upgrade": "ewa upgrade"
   },
   "license": "ISC",
   "dependencies": {
     "cross-env": "^7.0.3",
-    "ewa": "^1.0.6"
+    "ewa": "^1.0.7"
   },
   "devDependencies": {
-    "ewa-cli": "^1.0.6"
+    "ewa-cli": "^1.0.7"
   }
 }
