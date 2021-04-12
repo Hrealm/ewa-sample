@@ -1,3 +1,20 @@
+const { enableState } = require('ewa/src/ewa');
+
+// 参数支持：
+//   opts: 参数对象
+//     debug: 是否开启 debug 模式，支持3种参数： true, 'page', 'component', 默认为 false
+//     component: 是否开启 component 支持, 默认为 true
+//     page: 是否开启 page 支持, 默认为 true
+//     overwriteArrayOnDeleted: 是否在数组发生删除操作是覆盖整个数组 true 或者 false, 默认为 true
+//     autoSync: 是否在 调用 setData 时自动同步 state, 默认为 true; 如果关闭此操作，在同一个页面或组件中混用 setState 或 setData 的时候，可能会导致BUG, 也可以手动调用 this.syncState() 来手动同步
+enableState({
+  debug: true,
+  component: true,
+  page: true,
+  overwriteArrayOnDeleted: true,
+  autoSync: true
+});
+
 App({
   onLaunch: function () {
     // 展示本地存储能力

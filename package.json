@@ -5,8 +5,7 @@
   "scripts": {
     "clean": "ewa clean",
     "start": "ewa clean && cross-env NODE_ENV=development ewa start",
-    "build": "ewa clean && cross-env NODE_ENV=development ewa build",
-    "build:prod": "ewa clean && cross-env NODE_ENV=production ewa build",
+    "build": "ewa clean && cross-env NODE_ENV=production ewa build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "ISC",
