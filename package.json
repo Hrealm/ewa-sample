@@ -12,9 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "cross-env": "^7.0.3",
-    "ewa": "^1.0.7"
+    "ewa": "^1.0.8"
   },
   "devDependencies": {
-    "ewa-cli": "^1.0.7"
+    "ewa-cli": "^1.0.8"
   }
 }
