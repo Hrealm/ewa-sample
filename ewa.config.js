@@ -62,7 +62,7 @@ module.exports = {
         }
       }
     );
-    console.log('-----webpack:config-------',config.module.rules);
+    // console.log('-----webpack:config-------',config.module.rules);
     return config;
   }
 };

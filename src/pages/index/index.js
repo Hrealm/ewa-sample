@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp();
-import { http } from '../../utils/request';
+// import { http } from '../../utils/httpUtils';
 
 Page({
   data: {
@@ -53,6 +53,6 @@ Page({
     });
   },
   testENV: function(){
-    console.log(http());
+    console.log('http()');
   }
 });
