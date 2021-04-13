@@ -51,6 +51,18 @@ module.exports = {
 
   // 嫌不够灵活？直接修改 webpack 配置
   webpack: function(config) {
+    config.module.rules.push(
+      {
+        test: /fileInWhichJQueryIsUndefined\.js$/,
+        loader: 'string-replace-loader',
+        options: {
+          search: 'jQuery',
+          replace: 'window.$',
+          strict: true
+        }
+      }
+    );
+    console.log('-----webpack:config-------',config.module.rules);
     return config;
   }
 };

@@ -43,7 +43,7 @@ module.exports = {
       'single'
     ],
     'semi': [
-      2,
+      0,
       'always'
     ]
   }

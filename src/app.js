@@ -1,4 +1,4 @@
-const { enableState } = require('ewa/src/ewa');
+const { enableState, createStore } = require('ewa'); 
 
 // 参数支持：
 //   opts: 参数对象
@@ -49,7 +49,7 @@ App({
       }
     });
   },
-  globalData: {
+  globalData: createStore ({
     userInfo: null
-  }
+  })
 });
