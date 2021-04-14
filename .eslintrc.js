@@ -29,6 +29,9 @@ module.exports = {
     'no-console': [
       0
     ],
+    'no-empty': [
+      0
+    ],
     'indent': [
       2,
       2,
@@ -39,7 +42,7 @@ module.exports = {
       'unix'
     ],
     'quotes': [
-      1,
+      0,
       'single'
     ],
     'semi': [
