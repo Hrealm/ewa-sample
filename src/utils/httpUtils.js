@@ -1,4 +1,4 @@
-const config = require('../../config');
+const config = require('../config');
 const api = require('./interface.js')
 
 export const request = function (url, method, data, header) {
