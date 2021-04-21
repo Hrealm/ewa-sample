@@ -38,7 +38,7 @@ module.exports = {
       { 'SwitchCase': 1, 'MemberExpression': 1 }
     ],
     'linebreak-style': [
-      2,
+      0,
       'unix'
     ],
     'quotes': [
